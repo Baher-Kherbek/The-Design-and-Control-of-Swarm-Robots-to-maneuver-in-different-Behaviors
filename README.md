@@ -21,7 +21,7 @@ There are 2 + (n) nodes involved, (n is the number of robots present in the work
 
 Each Robot is controlled by an ESP-32S microcontroller, which is WiFi enabled. The WiFi option is used as medium of communication. All microcontrollers of the robots as well as the master computer (which runs the ROSCORE and holds the control and camera nodes) are connected to the same WiFi network, communication between all nodes is achieved through the ROSSERIAL package which uses XMLRPC communication protocol to transmit packets of messages to each robot.
 
-<h2> The Result </h2>]
+<h2> The Result </h2>
 Only two main behaviors were implemented, The first is an individual behavior of each robot that moves to a specific (x, y) coordinate supplied. The Secon behavior is the chain behavior (Master Slave), the Idea is that a Master robot moves to a designated (x, y) coordinate in the workspace, The slave robots follow wach other in a connected chain maneuver. Videos were uploaded to the Results Folder of the project, along with pictures of the mobile robots that were designed and 3D printed afterwards.
 
 <h2> Acknowledgements </h2>
